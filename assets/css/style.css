@@ -438,11 +438,11 @@ h1, h2, h3, h4, h5, h6{
 	}
 
 	.recent-work:before {
-		opacity: 1;
+		opacity: 0;
 	}
 
 	.recent-work span {
-		opacity: 1;
+		opacity: 0;
 	}
 }
 
