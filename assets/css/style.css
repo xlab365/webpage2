@@ -146,9 +146,10 @@ h1, h2, h3, h4, h5, h6{
 #header .top h1{
 	margin-bottom: 0;
 }
-#header .top.solid .toggleDrawer i {
+
+/*#header .top.solid .toggleDrawer i {
     padding-top: 8px;
-}
+}*/
 
 #header .logo, #header .toggleDrawer{
 	font-family: 'Alegreya SC';
@@ -417,12 +418,13 @@ h1, h2, h3, h4, h5, h6{
 
 
 @media (max-width: 767px){
-#header .top {
- padding: 15px;
-}
-#header .logo, #header .toggleDrawer {
-	font-size: 0.8em;
-}
+	#header .top {
+ 		padding: 15px;
+	}
+
+	#header .logo, #header .toggleDrawer {
+		font-size: 0.8em;
+	}
 
 	#header .slogan {
 		font-size: 5em; 
